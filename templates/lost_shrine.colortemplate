@@ -37,15 +37,14 @@ Background: dark
 
 # Color palette {{{
 # Color name         GUI               Base256           Base16 (optional)
-Color: dark          #2e3440           ~                 Black
-Color: darkgrey      #434c5e           ~                 DarkGrey
-Color: grey          #707f9c           ~                 LightGray
-Color: greyalt       #58647a           ~                 Gray
-Color: light         #ebf0ca           ~                 White
+Color: dark          #3c4855           ~                 Black
+Color: darkgrey      #616c72           ~                 DarkGrey
+Color: grey          #a5a6a4           ~                 LightGray
+Color: light         #ebeae9           ~                 White
 Color: green         #c7ecb0           ~                 Green
 Color: blue          #c1d7fd           ~                 Blue
 Color: magenta       #e3c3ff           ~                 Magenta
-Color: yellow        #fde4a8           ~                 Yellow
+Color: yellow        #ffe198           ~                 Yellow
 Color: orange        #fdc59f           ~                 DarkYellow
 Color: red           #fd8e94           ~                 Red
 Color: cyan          #b9f4e1           ~                 Cyan
@@ -106,16 +105,16 @@ SpellCap             orange            none              s=orange
 SpellLocal           green             none              s=cyan
 SpellRare            magenta           none              s=magenta
 VertSplit            grey              none
-Visual               none              greyalt
-VisualNOS            none              greyalt           italic
-Search               none              greyalt           underline
-IncSearch            none              greyalt           underline
+Visual               none              darkgrey
+VisualNOS            none              darkgrey          italic
+Search               none              darkgrey          underline
+IncSearch            none              darkgrey          underline
 MatchParen           none              none              bold
 NonText              grey              none
-StatusLine           light             greyalt
-StatusLineNC         dark              greyalt
-TabLine              dark              greyalt
-TabLineFill          dark              greyalt
+StatusLine           light             darkgrey
+StatusLineNC         dark              darkgrey
+TabLine              dark              darkgrey
+TabLineFill          dark              darkgrey
 TabLineSel           dark              blue
 WildMenu             dark              green
 

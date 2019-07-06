@@ -9,87 +9,87 @@
 "{{{Palette
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
-let s:dark = [ '#2e3440', 0 ]
-let s:darkgrey = [ '#434c5e', 0 ]
-let s:grey = [ '#58647a', 0 ]
-let s:light = [ '#ebf0ca', 0 ]
-let s:green = [ '#c7ecb0', 0 ]
-let s:blue = [ '#bad4ff', 0 ]
-let s:magenta = [ '#e3c3ff', 0 ]
-let s:yellow = [ '#fde4a8', 0 ]
-let s:orange = [ '#fdc59f', 0 ]
-let s:red = [ '#fd8e94', 0 ]
+let s:dark = [ '#3c4855', 0]
+let s:darker = [ '#616c72', 0]
+let s:darkblue = [ '#899ba6', 0]
+let s:grey = [ '#a5a6a4', 0]
+let s:brown = [ '#999083', 0]
+let s:light = [ '#c5d4dd', 0]
+let s:white = [ '#ebeae9', 0 ]
+let s:blue = [ '#87d7ff', 0]
+let s:red = [ '#db6c6c', 0]
+let s:orange = [ '#FF8700', 0]
 "}}}
 
 "{{{Definition
 let s:tab_l_fg = s:light
-let s:tab_l_bg = s:grey
-let s:tab_r_fg = s:dark
-let s:tab_r_bg = s:blue
-let s:tab_sel_fg = s:dark
-let s:tab_sel_bg = s:blue
+let s:tab_l_bg = s:darker
+let s:tab_r_fg = s:light
+let s:tab_r_bg = s:darker
+let s:tab_sel_fg = s:white
+let s:tab_sel_bg = s:darkblue
 let s:tab_middle_fg = s:light
-let s:tab_middle_bg = s:darkgrey
+let s:tab_middle_bg = s:dark
 
 let s:warningfg = s:orange
-let s:warningbg = s:grey
+let s:warningbg = s:darker
 let s:errorfg = s:red
-let s:errorbg = s:grey
+let s:errorbg = s:darker
 
-let s:normal_l1_fg = s:dark
-let s:normal_l1_bg = s:blue
+let s:normal_l1_fg = s:white
+let s:normal_l1_bg = s:darkblue
 let s:normal_l2_fg = s:light
-let s:normal_l2_bg = s:grey
-let s:normal_r1_fg = s:dark
-let s:normal_r1_bg = s:blue
+let s:normal_l2_bg = s:darker
+let s:normal_r1_fg = s:white
+let s:normal_r1_bg = s:darkblue
 let s:normal_r2_fg = s:light
-let s:normal_r2_bg = s:grey
+let s:normal_r2_bg = s:darker
 let s:normal_middle_fg = s:light
-let s:normal_middle_bg = s:darkgrey
+let s:normal_middle_bg = s:dark
 
 let s:insert_l1_fg = s:dark
-let s:insert_l1_bg = s:green
+let s:insert_l1_bg = s:light
 let s:insert_l2_fg = s:light
-let s:insert_l2_bg = s:grey
-let s:insert_r1_fg = s:dark
-let s:insert_r1_bg = s:green
+let s:insert_l2_bg = s:darker
+let s:insert_r1_fg = s:white
+let s:insert_r1_bg = s:darkblue
 let s:insert_r2_fg = s:light
-let s:insert_r2_bg = s:grey
+let s:insert_r2_bg = s:darker
 let s:insert_middle_fg = s:light
-let s:insert_middle_bg = s:darkgrey
+let s:insert_middle_bg = s:dark
 
 let s:visual_l1_fg = s:dark
-let s:visual_l1_bg = s:magenta
+let s:visual_l1_bg = s:blue
 let s:visual_l2_fg = s:light
-let s:visual_l2_bg = s:grey
-let s:visual_r1_fg = s:dark
-let s:visual_r1_bg = s:magenta
+let s:visual_l2_bg = s:darker
+let s:visual_r1_fg = s:white
+let s:visual_r1_bg = s:darkblue
 let s:visual_r2_fg = s:light
-let s:visual_r2_bg = s:grey
+let s:visual_r2_bg = s:darker
 let s:visual_middle_fg = s:light
-let s:visual_middle_bg = s:darkgrey
+let s:visual_middle_bg = s:dark
 
 let s:replace_l1_fg = s:dark
-let s:replace_l1_bg = s:magenta
+let s:replace_l1_bg = s:blue
 let s:replace_l2_fg = s:light
-let s:replace_l2_bg = s:grey
-let s:replace_r1_fg = s:dark
-let s:replace_r1_bg = s:magenta
+let s:replace_l2_bg = s:darker
+let s:replace_r1_fg = s:white
+let s:replace_r1_bg = s:darkblue
 let s:replace_r2_fg = s:light
-let s:replace_r2_bg = s:grey
+let s:replace_r2_bg = s:darker
 let s:replace_middle_fg = s:light
-let s:replace_middle_bg = s:darkgrey
+let s:replace_middle_bg = s:dark
 
 let s:inactive_l1_fg = s:light
-let s:inactive_l1_bg = s:grey
+let s:inactive_l1_bg = s:darker
 let s:inactive_l2_fg = s:light
-let s:inactive_l2_bg = s:grey
+let s:inactive_l2_bg = s:darker
 let s:inactive_r1_fg = s:light
-let s:inactive_r1_bg = s:grey
+let s:inactive_r1_bg = s:darker
 let s:inactive_r2_fg = s:light
-let s:inactive_r2_bg = s:grey
+let s:inactive_r2_bg = s:darker
 let s:inactive_middle_fg = s:light
-let s:inactive_middle_bg = s:darkgrey
+let s:inactive_middle_bg = s:dark
 "}}}
 
 "{{{Implementation
