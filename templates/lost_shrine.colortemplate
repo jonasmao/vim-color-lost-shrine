@@ -42,13 +42,13 @@ Color: darkgrey      #616c72           ~                 DarkGrey
 Color: grey          #a5a6a4           ~                 LightGray
 Color: light         #ebeae9           ~                 White
 Color: green         #c7ecb0           ~                 Green
-Color: blue          #c1d7fd           ~                 Blue
-Color: magenta       #e3c3ff           ~                 Magenta
-Color: yellow        #ffe198           ~                 Yellow
-Color: orange        #fdc59f           ~                 DarkYellow
+Color: blue          #bdd5ff           ~                 Blue
+Color: magenta       #e1bfff           ~                 Magenta
+Color: yellow        #ffdf9a           ~                 Yellow
+Color: orange        #ffc68b           ~                 DarkYellow
 Color: red           #fd8e94           ~                 Red
 Color: cyan          #b9f4e1           ~                 Cyan
-Color: brown         #dbc08d           ~                 Brown
+Color: brown         #999083           ~                 Brown
 Color: darkred       #4b323b           ~                 DarkRed
 Color: darkgreen     #2d3a2c           ~                 DarkGreen
 Color: darkorange    #473628           ~                 DarkYellow
@@ -121,6 +121,7 @@ WildMenu             dark              green
 Title                magenta           none
 Label                magenta           none
 Conditional          magenta           none
+Exception            magenta           none
 Todo                 magenta           none
 PreCondit            magenta           none
 Typedef              yellow            none
@@ -140,7 +141,6 @@ Function             blue              none
 Statement            blue              none
 Constant             blue              none
 Special              blue              none
-Exception            orange            none
 SpecialKey           magenta           none
 Error                red               none              bold
 Comment              grey              none              italic
