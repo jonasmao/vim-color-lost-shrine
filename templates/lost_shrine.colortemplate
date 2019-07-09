@@ -44,11 +44,12 @@ Color: light         #ebeae9           ~                 White
 Color: green         #c7ecb0           ~                 Green
 Color: blue          #bdd5ff           ~                 Blue
 Color: magenta       #e1bfff           ~                 Magenta
-Color: yellow        #ffdf9a           ~                 Yellow
+Color: yellow        #ffe198           ~                 Yellow
 Color: orange        #ffc68b           ~                 DarkYellow
 Color: red           #fd8e94           ~                 Red
-Color: cyan          #b9f4e1           ~                 Cyan
-Color: brown         #999083           ~                 Brown
+Color: cyan          #b4dddd           ~                 Cyan
+Color: brown         #e5c5a8           ~                 Brown
+Color: browngrey     #999083           ~                 Brown
 Color: darkred       #4b323b           ~                 DarkRed
 Color: darkgreen     #2d3a2c           ~                 DarkGreen
 Color: darkorange    #473628           ~                 DarkYellow
@@ -122,7 +123,6 @@ Title                magenta           none
 Label                magenta           none
 Conditional          magenta           none
 Exception            magenta           none
-Todo                 magenta           none
 PreCondit            magenta           none
 Typedef              yellow            none
 PreProc              yellow            none
@@ -144,7 +144,8 @@ Special              blue              none
 SpecialKey           magenta           none
 Error                red               none              bold
 Comment              grey              none              italic
-SpecialComment       brown             none
+SpecialComment       brown             none              italic
+Todo                 magenta           none              italic
 Ignore               grey              none
 Underlined           none              none              underline
 # See `:help CursorIM`

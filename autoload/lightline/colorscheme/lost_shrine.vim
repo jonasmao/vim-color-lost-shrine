@@ -11,14 +11,19 @@ let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': 
 
 let s:dark = [ '#3c4855', 0]
 let s:darker = [ '#616c72', 0]
-let s:darkblue = [ '#899ba6', 0]
 let s:grey = [ '#a5a6a4', 0]
-let s:brown = [ '#999083', 0]
 let s:light = [ '#c5d4dd', 0]
 let s:white = [ '#ebeae9', 0 ]
-let s:blue = [ '#87d7ff', 0]
-let s:red = [ '#db6c6c', 0]
-let s:orange = [ '#FF8700', 0]
+let s:green = [ '#c7ecb0', 0 ]
+let s:blue = [ '#bdd5ff', 0]
+let s:magenta = [ '#e1bfff', 0 ]
+let s:yellow = [ '#ffe198', 0 ]
+let s:red = [ '#fd8e94', 0]
+let s:orange = [ '#ffc68b', 0]
+let s:darkblue = [ '#899ba6', 0]
+
+let s:brown = [ '#999083', 0]
+let s:white = [ '#ebeae9', 0 ]
 "}}}
 
 "{{{Definition
@@ -48,7 +53,7 @@ let s:normal_middle_fg = s:light
 let s:normal_middle_bg = s:dark
 
 let s:insert_l1_fg = s:dark
-let s:insert_l1_bg = s:light
+let s:insert_l1_bg = s:green
 let s:insert_l2_fg = s:light
 let s:insert_l2_bg = s:darker
 let s:insert_r1_fg = s:white
@@ -59,7 +64,7 @@ let s:insert_middle_fg = s:light
 let s:insert_middle_bg = s:dark
 
 let s:visual_l1_fg = s:dark
-let s:visual_l1_bg = s:blue
+let s:visual_l1_bg = s:magenta
 let s:visual_l2_fg = s:light
 let s:visual_l2_bg = s:darker
 let s:visual_r1_fg = s:white
@@ -70,7 +75,7 @@ let s:visual_middle_fg = s:light
 let s:visual_middle_bg = s:dark
 
 let s:replace_l1_fg = s:dark
-let s:replace_l1_bg = s:blue
+let s:replace_l1_bg = s:yellow
 let s:replace_l2_fg = s:light
 let s:replace_l2_bg = s:darker
 let s:replace_r1_fg = s:white
